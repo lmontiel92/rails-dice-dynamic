@@ -16,4 +16,11 @@ class DiceController <ApplicationController
     render ({:template => "view_templates/results"})
 
   end
+
+  def show_initial_page
+    
+    render ({:template => "view_templates/initial_page"})
+
+  end
+
 end
